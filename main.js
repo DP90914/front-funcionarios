@@ -17,10 +17,8 @@ function criarFuncionarios(imagem){
     nome.textContent = imagem.nome
     img.src = "./img/" + imagem.imagem
 
-    container.appendChild(img)
-    container.appendChild(nome)
-    container.appendChild(cargo)
 
+    container.appendChild(img,cargo,nome)
     galeria.appendChild(container)
 }
 
