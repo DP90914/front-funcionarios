@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --nome: attr(subtitle);
+    --cargo: attr(subtitle)
+}
 body{
 
     height: 100vh;

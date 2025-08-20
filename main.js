@@ -20,6 +20,9 @@ function criarFuncionarios(imagem){
 
     container.appendChild(img,cargo,nome)
     galeria.appendChild(container)
+
+    document.documentElement.style.setProperty("--nome", container.appendChild(nome))
+    document.documentElement.style.setProperty("--cargo", container.appendChild(cargo))
 }
 
 function mostrarFuncionarios(){
